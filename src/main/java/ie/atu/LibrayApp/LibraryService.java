@@ -4,7 +4,10 @@ import java.util.ArrayList;
 
 import org.springframework.stereotype.Service;
 
+import lombok.AllArgsConstructor;
+
 @Service
+@AllArgsConstructor
 public class LibraryService {
     
     ArrayList<Book> booklist = new ArrayList<>();
